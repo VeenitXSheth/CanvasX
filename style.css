@@ -1,0 +1,109 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+script {
+    position: fixed;
+    z-index: 1;
+}
+
+.ui {
+    position: fixed;
+    z-index: 69;
+    height: 100px;
+    width: 100vw;
+    color: white;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    margin-right: 10px;
+}
+
+.black {
+    background: black;
+    border: 0.5px solid black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px;
+    border-radius: 50%;
+    color: black;
+}
+
+.white {
+    background: white;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.red {
+    background: red;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px;
+    border-radius: 50%;
+    color: red;
+}
+
+.blue {
+    background: blue;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px;
+    border-radius: 50%;
+    color: blue;
+}
+
+.yellow {
+    background: yellow;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px;
+    border-radius: 50%;
+    color: yellow;
+    margin-right: 25px;
+}
+
+input {
+    font-family: monospace;
+    background: white;
+    opacity: 0.69;
+    border: none;
+    padding: 20px 50px 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: text;
+}
+
+.submit-size {
+    background: green;
+    color: white;
+    padding: 17.5px 17.5px 17.5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
