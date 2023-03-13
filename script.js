@@ -1,10 +1,15 @@
-let colorlist = ['yellow', 'red', 'black', 'white', 'blue'];
+let colorlist = ['yellow', 'red', 'black', 'white', 'blue', 'gray', 'green', 'orange', 'purple', 'brown'];
 
 const blackBtn = document.querySelector('.black');
 const whiteBtn = document.querySelector('.white');
 const redBtn = document.querySelector('.red');
 const blueBtn = document.querySelector('.blue');
 const yellowBtn = document.querySelector('.yellow');
+const grayBtn = document.querySelector('.gray');
+const greenBtn = document.querySelector('.green');
+const orangeBtn = document.querySelector('.orange');
+const purpleBtn = document.querySelector('.purple');
+const brownBtn = document.querySelector('.brown');
 
 let selectedColor;
 
@@ -13,7 +18,7 @@ let currentSize;
 const sizeInput = document.querySelector('.size-input');
 const sizeBtn = document.querySelector('.submit-size');
 
-let defaultSize = 25;
+let defaultSize = 15;
 let newSize;
 
 sizeBtn.addEventListener('click', function() {
@@ -60,6 +65,41 @@ blueBtn.addEventListener('click', function() {
 yellowBtn.addEventListener('click', function() {
 
     selectedColor = 'yellow';
+    localStorage.setItem('currentColor', selectedColor);
+    
+});
+
+grayBtn.addEventListener('click', function() {
+
+    selectedColor = 'gray';
+    localStorage.setItem('currentColor', selectedColor);
+    
+});
+
+greenBtn.addEventListener('click', function() {
+
+    selectedColor = 'green';
+    localStorage.setItem('currentColor', selectedColor);
+    
+});
+
+orangeBtn.addEventListener('click', function() {
+
+    selectedColor = 'orange';
+    localStorage.setItem('currentColor', selectedColor);
+    
+});
+
+purpleBtn.addEventListener('click', function() {
+
+    selectedColor = 'purple';
+    localStorage.setItem('currentColor', selectedColor);
+    
+});
+
+brownBtn.addEventListener('click', function() {
+
+    selectedColor = '#59270b';
     localStorage.setItem('currentColor', selectedColor);
     
 });

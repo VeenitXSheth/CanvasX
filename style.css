@@ -87,6 +87,51 @@ li {
     margin-right: 25px;
 }
 
+.gray {
+    background: gray;
+    border: 0.5px solid gray;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px;
+    border-radius: 50%;
+    color: gray;
+}
+
+.green {
+    background: green;
+    border: 0.5px solid green;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px;
+    border-radius: 50%;
+    color: green;
+}
+
+.orange {
+    background: orange;
+    border: 0.5px solid orange;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px;
+    border-radius: 50%;
+    color: orange;
+}
+
+.purple {
+    background: purple;
+    border: 0.5px solid purple;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px;
+    border-radius: 50%;
+    color: purple;
+}
+
+.brown {
+    background: #59270b;
+    border: 0.5px solid #59270b;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px;
+    border-radius: 50%;
+    color: #59270b;
+}
+
 input {
     font-family: monospace;
     background: white;
